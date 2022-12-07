@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>Bugema</title>
     <link rel="shortcut icon" href="IMAGES/log.png" type="image/x-icon">
      <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <div class="container -sm-2">
     <!---header section-->
     <header>
         <div class="row bg-warnning my-3">
             <div class="col-9">
-             <h1>Sample bootstrap layout</h1>
+             <h1 id="mainheading">BUGEMA UNIVERSITY</h1>
+    <button type="button" onclick="document.getElementById('mainheading').innerHTML='BUGEMA UNIVERSITY'">Click to change headig</button>
+    <button onclick="document.getElementById('mainheading').innerHTML='MAIN CAMPUS'">click to previous</button>
             </div>
         <div class="col-3">
          <img src="IMAGES/log.png" alt="" width="150px" height="150px">
@@ -25,11 +27,18 @@
     <!---nave-->
     <nav>
         <div class="row bg-success">
-            <ul class="nav-tabs">
-            <li class="nav-item"><a href="index.html" class="nav-link ">index</a></li>
-            <li class="nav-item"><a href="pagetwo.html" class="nav-link">page two</a></li>
-            <li class="nav-item"><a href="pagethree.html" class="nav-link">page three</a></li>
-            <li class="nav-item"><a href="pagefour.html" class="nav-link">page four</a></li>
+                <div class="col-sm-3">
+            <l class="nav-item"><a href="index.html" class="nav-link ">index</a></li>
+            </div>
+            <div class="col-sm-3">
+            <l class="nav-item"><a href="pagetwo.html" class="nav-link">page two</a></li>
+            </div>
+            <div class="col-sm-3">
+            <l class="nav-item"><a href="pagethree.html" class="nav-link">page three</a></li>
+            </div>
+            <div class="col-sm-3">
+            <l class="nav-item"><a href="pagefour.html" class="nav-link">page four</a></li>
+            </div>
             </ul>
         </div>
         
@@ -45,27 +54,32 @@
             <section>
                 <h1></h1>
                 <img src="IMAGES/me.jpg" alt="" width="200px" height="170px" style="float: left; margin:20px;">
-                <p>Software systems play an ever more important role in our lives and software engineers and their companies find themselves in a position where they are held responsible for ethical issues that may arise. In this paper</p>
+                <h2>INFORMATION ABOUT BUGEMA UNIVERSITY</h2>
+                <p>Bugama University is located in Bugema mukono district</p>
                 <p>Software systems play an ever more important role in our lives and software engineers and their companies find themselves in a position where they are held responsible for ethical issues that may arise. In this paper</p>
             </section>
             <div class="row">
-                <h1>services</h1>
-                <div class="col-sm-3">
-                   <h2>col 1</h2>
-                   <p>This is my col one</p>
+                <h3>BUGEMA UNIVERSITY SCHOOLS AND DEPERTMENTS</h3>
+                <div class="col-sm-6">
+                   <h2>SCHOOLS</h2>
+                   <p>School of nursing</p>
+                   <p>School of informatics</p>
+                   <p>School of agriculture</p>
+                   <p>School of information </p>
+                   <p>School of education</p>
+                   <p>School of business</p>
                 </div>
-                <div class="col-sm-3">
-                   <h2>col 2</h2>
-                   <p>This is my col 2</p>
+                <div class="col-sm-6">
+                   <h2>DEPERTMENTS</h2>
+                   <p>Depertment of technology</p>
+                   <p>Depertment of media</p>
+                   <p>Depertment of accounting</p>
+                   <p>Depertment of eduction</p>
                 </div>
-                <div class="col-sm-3">
-                   <h2>col 3</h2>
-                   <p>This is my col 3</p>
-                </div>
-                <div class="col-sm-3">
-                   <h2>col 4</h2>
-                   <p>This is my col 4</p>
-                </div>
+                
+               </div>
+               <div>
+                <h2>Reasons why i joined Bugema University</h2>
                </div>
         </div>
         <!--aside section-->
